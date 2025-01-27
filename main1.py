@@ -14,6 +14,8 @@ else:
     print('User not found')
 # 2 task
 def multiply(x,y):
+    if not x or not y:
+        return
     return x * y
 
 result = multiply(5,10)
