@@ -15,9 +15,8 @@ res = priimk_pacienta('Edgaras', gydytojas='gyd. Pakeitenis')
 print(res)
 #  3 task
 def three_greetings(name1, name2, name3):
-    print(f'Hello {name1}!')
-    print(f'Hello {name2}!')
-    print(f'Hello {name3}!')
+    print(f'Hello {name1}!, Hello {name2}!, Hello {name3}!')
+
 three_greetings('Jonas', 'Tomas','Edgaras')
 #  4 task
 def greetings_with_position(name,position='friend'):
