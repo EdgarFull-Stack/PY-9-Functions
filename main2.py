@@ -20,6 +20,7 @@ def three_greetings(name1, name2, name3):
     print(f'Hello {name3}!')
 three_greetings('Jonas', 'Tomas','Edgaras')
 #  4 task
-def greetings_with_position(name,position):
+def greetings_with_position(name,position='friend'):
     print(f'Hello, {name}! What are you doing, {position} ?')
-greetings_with_position('Edgar','collegue')
+greetings_with_position('Edgar')
+greetings_with_position('Edgar', 'collegue')
