@@ -12,3 +12,9 @@ if greetings:
     print(greetings)
 else:
     print('User not found')
+# 2 task
+def multiply(x,y):
+    return x * y
+
+result = multiply(5,10)
+print(f'Result is: {result}')
